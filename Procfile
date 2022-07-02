@@ -1,1 +1,1 @@
-web: gunicorn app:create_app()
+gunicorn -w 4 "todoapp:create_app()"
