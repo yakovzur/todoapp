@@ -13,7 +13,7 @@ def create_app():
 
     load_dotenv()
 
-    app.config['MONGO_URI'] = f'mongodb+srv://yaki:{os.environ.get("password")}@nina.jwuon.mongodb.net/mydb?retryWrites=true&w=majority'
+    app.config['MONGO_URI'] = f'mongodb+srv://yaki:{os.environ.get("password")}@loe.jwuon.mongodb.net/mydb?retryWrites=true&w=majority'
 
     mongo.init_app(app)
 
